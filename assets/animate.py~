@@ -1,0 +1,16 @@
+import pygame
+from pygame.locals import *
+
+isRunning = True
+
+pygame.init()
+screen = pygame.display.set_mode((800,600))
+pygame.display.set_caption("Explosion animation")
+
+while(isRunning):
+	for event in pygame.event.get():
+		if event.type == pygame.QUIT:
+			isRunning = False;
+			exit()
+			pygame.quit()
+	pygame.display.update()

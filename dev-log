@@ -1,0 +1,21 @@
+# not documented
+-=-SNIP-=- 
+Saturday, August 29:
+	added exploPop.wav for astroid hitting the end of the screen
+	added double bullet sprites
+	added ship movement animation
+
+Sunday, August 30:
+	added more comments to source files
+	improved bullet firing mechanism
+	increased background scrolling speed
+
+	
+ISSUE DISCOVERED:
+#	today i noticed hangs and high cpu usage at 
+	random intervals during gameplay
+	
+Wednesday, October 28:
+	Implemented multithreading in the playSound and playMusic 
+	Function in audioManager.cpp
+
